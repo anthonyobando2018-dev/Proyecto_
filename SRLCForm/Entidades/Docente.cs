@@ -16,7 +16,7 @@ namespace SRLCProyectoPOE.Entidades
         private string especialidad;
         private bool estado;
         //xdd
-        //BARCELONA VV 
+        //PErez ponce es gay 
 
         public Docente()
         {
