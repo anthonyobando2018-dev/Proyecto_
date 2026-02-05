@@ -48,52 +48,49 @@
             // lblCodigo
             // 
             lblCodigo.AutoSize = true;
-            lblCodigo.Location = new Point(40, 40);
+            lblCodigo.Location = new Point(35, 30);
             lblCodigo.Name = "lblCodigo";
-            lblCodigo.Size = new Size(61, 20);
+            lblCodigo.Size = new Size(49, 15);
             lblCodigo.TabIndex = 0;
             lblCodigo.Text = "Codigo:";
             // 
             // lblNombre
             // 
             lblNombre.AutoSize = true;
-            lblNombre.Location = new Point(40, 93);
+            lblNombre.Location = new Point(35, 70);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(67, 20);
+            lblNombre.Size = new Size(54, 15);
             lblNombre.TabIndex = 1;
             lblNombre.Text = "Nombre:";
             // 
             // lblCapacidad
             // 
             lblCapacidad.AutoSize = true;
-            lblCapacidad.Location = new Point(40, 141);
+            lblCapacidad.Location = new Point(35, 106);
             lblCapacidad.Name = "lblCapacidad";
-            lblCapacidad.Size = new Size(83, 20);
+            lblCapacidad.Size = new Size(66, 15);
             lblCapacidad.TabIndex = 2;
             lblCapacidad.Text = "Capacidad:";
             // 
             // txtCodigo
             // 
-            txtCodigo.Location = new Point(103, 29);
-            txtCodigo.Margin = new Padding(3, 4, 3, 4);
+            txtCodigo.Location = new Point(90, 22);
             txtCodigo.Name = "txtCodigo";
-            txtCodigo.Size = new Size(355, 27);
+            txtCodigo.Size = new Size(311, 23);
             txtCodigo.TabIndex = 3;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(103, 83);
-            txtNombre.Margin = new Padding(3, 4, 3, 4);
+            txtNombre.Location = new Point(90, 62);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(355, 27);
+            txtNombre.Size = new Size(311, 23);
             txtNombre.TabIndex = 4;
             // 
             // numCapacidad
             // 
-            numCapacidad.Location = new Point(122, 131);
-            numCapacidad.Margin = new Padding(3, 4, 3, 4);
+            numCapacidad.Location = new Point(107, 98);
             numCapacidad.Name = "numCapacidad";
-            numCapacidad.Size = new Size(137, 27);
+            numCapacidad.Size = new Size(120, 23);
             numCapacidad.TabIndex = 5;
             // 
             // chkActivo
@@ -101,10 +98,9 @@
             chkActivo.AutoSize = true;
             chkActivo.Checked = true;
             chkActivo.CheckState = CheckState.Checked;
-            chkActivo.Location = new Point(551, 83);
-            chkActivo.Margin = new Padding(3, 4, 3, 4);
+            chkActivo.Location = new Point(482, 62);
             chkActivo.Name = "chkActivo";
-            chkActivo.Size = new Size(82, 24);
+            chkActivo.Size = new Size(67, 19);
             chkActivo.TabIndex = 6;
             chkActivo.Text = "ACTIVO";
             chkActivo.UseVisualStyleBackColor = true;
@@ -112,19 +108,17 @@
             // dgvLaboratorios
             // 
             dgvLaboratorios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvLaboratorios.Location = new Point(29, 245);
-            dgvLaboratorios.Margin = new Padding(3, 4, 3, 4);
+            dgvLaboratorios.Location = new Point(25, 184);
             dgvLaboratorios.Name = "dgvLaboratorios";
             dgvLaboratorios.RowHeadersWidth = 51;
-            dgvLaboratorios.Size = new Size(718, 271);
+            dgvLaboratorios.Size = new Size(628, 203);
             dgvLaboratorios.TabIndex = 7;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(122, 185);
-            btnAgregar.Margin = new Padding(3, 4, 3, 4);
+            btnAgregar.Location = new Point(107, 139);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(91, 33);
+            btnAgregar.Size = new Size(80, 25);
             btnAgregar.TabIndex = 8;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
@@ -132,10 +126,9 @@
             // 
             // btnBuscar
             // 
-            btnBuscar.Location = new Point(233, 187);
-            btnBuscar.Margin = new Padding(3, 4, 3, 4);
+            btnBuscar.Location = new Point(213, 140);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(89, 35);
+            btnBuscar.Size = new Size(78, 26);
             btnBuscar.TabIndex = 9;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
@@ -143,10 +136,9 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(367, 187);
-            btnEliminar.Margin = new Padding(3, 4, 3, 4);
+            btnEliminar.Location = new Point(321, 140);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(91, 36);
+            btnEliminar.Size = new Size(80, 27);
             btnEliminar.TabIndex = 10;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
@@ -154,10 +146,9 @@
             // 
             // btnListar
             // 
-            btnListar.Location = new Point(487, 188);
-            btnListar.Margin = new Padding(3, 4, 3, 4);
+            btnListar.Location = new Point(426, 141);
             btnListar.Name = "btnListar";
-            btnListar.Size = new Size(86, 35);
+            btnListar.Size = new Size(75, 26);
             btnListar.TabIndex = 11;
             btnListar.Text = "Listar";
             btnListar.UseVisualStyleBackColor = true;
@@ -165,10 +156,9 @@
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(608, 188);
-            btnActualizar.Margin = new Padding(3, 4, 3, 4);
+            btnActualizar.Location = new Point(532, 141);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(94, 35);
+            btnActualizar.Size = new Size(82, 26);
             btnActualizar.TabIndex = 12;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;
@@ -176,9 +166,9 @@
             // 
             // LaboratorioForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(786, 532);
+            ClientSize = new Size(688, 399);
             Controls.Add(btnActualizar);
             Controls.Add(btnListar);
             Controls.Add(btnEliminar);
@@ -193,7 +183,6 @@
             Controls.Add(lblNombre);
             Controls.Add(lblCodigo);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "LaboratorioForm";
             Text = "LABORATORIOS";
             FormClosing += LaboratorioForm_FormClosing;
