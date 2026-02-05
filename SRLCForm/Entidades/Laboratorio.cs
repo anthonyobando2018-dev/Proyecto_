@@ -56,5 +56,5 @@ namespace SRLCProyectoPOE.Entidades
     }
 }
 
-//hola es una prueba de github
+//HOLA ES DE GITHUB
 
