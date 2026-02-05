@@ -30,5 +30,6 @@ namespace SRLCProyectoPOE.Utilidades
             bool numeroValido = long.TryParse(valor, out long resultado);
             if (!numeroValido) throw new ArgumentException($"El campo {campoNombre} solo puede contener valores numericos.");
         }
+        //xd ddd 
     }
 }
