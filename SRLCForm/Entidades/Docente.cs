@@ -15,6 +15,7 @@ namespace SRLCProyectoPOE.Entidades
         private string nombreCompleto;
         private string especialidad;
         private bool estado;
+        //xdd
 
         public Docente()
         {
