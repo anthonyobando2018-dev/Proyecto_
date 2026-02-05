@@ -16,7 +16,7 @@ namespace SRLCProyectoPOE.Entidades
         private string especialidad;
         private bool estado;
         //xdd
-        //BARCELONA TU PAPA 
+        //BARCELONA VV 
 
         public Docente()
         {
